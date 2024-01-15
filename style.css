@@ -95,7 +95,17 @@ nav li {
         width: 100%;
         margin: 10px auto;
     }
+
+    .teams-container {
+        flex-direction: column;
+    }
+
+    .teams-img-container {
+        grid-template-columns: repeat(1fr);
+    }
 }
+
+
 
 /* tablet or medium devices */
 
@@ -105,6 +115,8 @@ nav li {
         flex-direction: column;
     }
 
+
+
     header {
         padding: 50px;
     }
@@ -113,6 +125,8 @@ nav li {
         width: 100%;
         margin: 20px auto;
     }
+
+
 }
 
 
@@ -120,7 +134,8 @@ nav li {
 
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
+
 }
 
 .teams-container {
